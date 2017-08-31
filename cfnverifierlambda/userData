@@ -1,0 +1,5 @@
+#!/bin/bash
+yum -y update 
+mkdir /home/ec2-user/.aws 
+cat > /home/ec2-user/.aws/config </home/ec2-user/errors.txt
+/opt/aws/bin/cfn-signal -s true 'https://cloudformation-waitcondition-us-east-1.s3.amazonaws.com/arn%3Aaws%3Acloudformation%3Aus-east-1%3A796879284197%3Astack/TestVPC/37c8a3e0-8de6-11e7-b4f8-500c3d441629/WebServerWaitHandle01?AWSAccessKeyId=AKIAIIT3CWAIMJYUTISA&Expires=1504226963&Signature=Z3mRRre0Vt%2FKYLbRt6UJ5GJ7OlA%3D'
